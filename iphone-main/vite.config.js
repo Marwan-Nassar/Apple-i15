@@ -11,5 +11,7 @@ export default defineConfig({
 
   build: {
     sourcemap: true
-  }
+  },
+
+  base: '/Apple-i15/' // Make sure this matches your GitHub repository name
 })
